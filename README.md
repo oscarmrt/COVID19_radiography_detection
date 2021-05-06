@@ -3,9 +3,9 @@
 ## **About the Project**
 This project attempts to detect through the use of data and image analysis tools in the field of Machine Learning, such as convolutional neural networks or deep neural networks, the detection of COVID-19 SARS COV2 in chest X-ray images.
 
-Through the use of neural networks in the field of Machine Learning, it is expected to have an accuracy greater than 85% in the detection of Pneumonia caused by COVID-19 SARS COV2.
+Through the use of neural networks in the field of Machine Learning, it is expected to have an accuracy greater than 85% in the detection of COVID-19 SARS COV2.
 
-The intention of this project is directed to the medical community to provide additional diagnostics in the detection of pneumonia caused by COVID-19 SARS COV2.
+The intention of this project is directed to the medical community to provide additional diagnostics in the detection of COVID-19 SARS COV2.
 
 
 <img src="./media/coronovirus.jpg" />
@@ -13,15 +13,14 @@ The intention of this project is directed to the medical community to provide ad
 ---
 ## **Data**
 
-We are going to collect data from Kaggle datasets in order to have radiography for people with COVID-19 positive cases along with Normal, Non-COVID lung infection and Viral Pneumonia images.
+We are going to collect data from Kaggle datasets in order to have radiography for people with COVID-19 positive cases along with Normal or healthy people images.
 
 ---
 
 ## **Requirements**
 ||||||
 :---:|:---:|:---:|:---:|:---:
-<a target="_blank" href="https://unity.com/"><img src="./media/unity.jpg" alt="unity" width=115/></a>|<a target="_blank" href="https://anaconda.org/"><img src="./media/anaconda_logo.jpg" alt="anaconda" /></a>|<a target="_blank" href="https://www.tensorflow.org/"><img src="./media/tensorflow_logo.jpg" alt="tensorflow" /></a>|<a target="_blank" href="https://pandas.pydata.org/"><img src="./media/pandas_logo.jpg" alt="pandas" /></a>|<a target="_blank" href="http://www.numpy.org/"><img src="./media/numpy_logo.jpg" alt="numpy" /></a>|
-<a target="_blank" href="https://yaml.org/"><img src="./media/Yaml_logo.png" alt="yaml" width=60/></a>|<a target="_blank" href="https://keras.io/"><img src="./media/keras_logo.jpg" alt="keras" /></a>|<a target="_blank" href="https://www.python.org/"><img src="./media/python-logo.jpg" alt="python" width=200/></a>|<a target="_blank" href="https://flask.palletsprojects.com/en/1.1.x/"><img src="./media/flask-logo.jpg" alt="flask" width=200/></a>|<a target="_blank" href=""><img src="./media/js.jpg" alt="js" width=150/></a>|<a target="_blank" href="https://getbootstrap.com/"><img src="./media/Bts.jpg" alt="bootstrap" width=150/></a>
+<a target="_blank" href="https://anaconda.org/"><img src="./media/anaconda_logo.jpg" alt="anaconda" /></a>|<a target="_blank" href="https://www.tensorflow.org/"><img src="./media/tensorflow_logo.jpg" alt="tensorflow" /></a>|<a target="_blank" href="https://pandas.pydata.org/"><img src="./media/pandas_logo.jpg" alt="pandas" /></a>|<a target="_blank" href="http://www.numpy.org/"><img src="./media/numpy_logo.jpg" alt="numpy" /></a>|<a target="_blank" href="https://keras.io/"><img src="./media/keras_logo.jpg" alt="keras" /></a>|<a target="_blank" href="https://www.python.org/"><img src="./media/python_logo.jpg" alt="python" width=200/></a>|<a target="_blank" href="https://scikit-learn.org/stable/"><img src="./media/sklearn_logo.jpg" alt="sklearn" width=200/></a>
 
 ---
 
