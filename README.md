@@ -94,7 +94,7 @@ So as the target data set is large and different from the base data set, we crea
     conda deactivate
     ~~~
 ### Step 2
-- Prepare our anaconda environment by writing the following in the terminal:
+- Prepare our anaconda environment by typing the following on the terminal (make sure to install the libraries listed below):
     ~~~
     conda activate my_env
     sudo apt-get -y install python3-pip
@@ -140,45 +140,85 @@ So as the target data set is large and different from the base data set, we crea
 ---
 
 ## **Results**
-For Kiwi, the sectors are very important, that's why they shared the areas that they needed to recognize, these areas are shown in the following image:
+~~~
+Epoch 1/35
+7/7 [==============================] - 5s 719ms/step - loss: 0.9381 - accuracy: 0.4779 - val_loss: 0.6935 - val_accuracy: 0.5000
+Epoch 2/35
+7/7 [==============================] - 4s 569ms/step - loss: 0.6936 - accuracy: 0.5441 - val_loss: 0.6924 - val_accuracy: 0.6000
+Epoch 3/35
+7/7 [==============================] - 4s 592ms/step - loss: 0.6892 - accuracy: 0.6187 - val_loss: 0.6887 - val_accuracy: 0.6500
+Epoch 4/35
+7/7 [==============================] - 4s 604ms/step - loss: 0.6781 - accuracy: 0.7168 - val_loss: 0.6988 - val_accuracy: 0.5000
+Epoch 5/35
+7/7 [==============================] - 4s 544ms/step - loss: 0.6482 - accuracy: 0.5975 - val_loss: 0.6871 - val_accuracy: 0.5500
+Epoch 6/35
+7/7 [==============================] - 4s 565ms/step - loss: 0.5812 - accuracy: 0.7397 - val_loss: 0.7176 - val_accuracy: 0.5500
+Epoch 7/35
+7/7 [==============================] - 4s 569ms/step - loss: 0.6259 - accuracy: 0.6630 - val_loss: 0.6835 - val_accuracy: 0.5833
+Epoch 8/35
+7/7 [==============================] - 4s 581ms/step - loss: 0.5448 - accuracy: 0.7342 - val_loss: 0.6443 - val_accuracy: 0.6500
+Epoch 9/35
+7/7 [==============================] - 4s 566ms/step - loss: 0.5119 - accuracy: 0.7898 - val_loss: 0.6214 - val_accuracy: 0.6167
+Epoch 10/35
+7/7 [==============================] - 4s 594ms/step - loss: 0.5190 - accuracy: 0.7445 - val_loss: 0.5973 - val_accuracy: 0.5833
+Epoch 11/35
+7/7 [==============================] - 4s 542ms/step - loss: 0.5396 - accuracy: 0.7155 - val_loss: 0.6151 - val_accuracy: 0.7000
+Epoch 12/35
+7/7 [==============================] - 4s 554ms/step - loss: 0.4559 - accuracy: 0.7962 - val_loss: 0.5664 - val_accuracy: 0.7000
+Epoch 13/35
+7/7 [==============================] - 4s 555ms/step - loss: 0.4133 - accuracy: 0.8038 - val_loss: 0.6769 - val_accuracy: 0.7000
+Epoch 14/35
+7/7 [==============================] - 4s 575ms/step - loss: 0.4183 - accuracy: 0.8215 - val_loss: 0.5820 - val_accuracy: 0.7333
+Epoch 15/35
+7/7 [==============================] - 4s 593ms/step - loss: 0.3948 - accuracy: 0.8177 - val_loss: 0.5052 - val_accuracy: 0.7167
+Epoch 16/35
+7/7 [==============================] - 4s 576ms/step - loss: 0.3229 - accuracy: 0.8661 - val_loss: 0.4191 - val_accuracy: 0.7333
+Epoch 17/35
+7/7 [==============================] - 4s 588ms/step - loss: 0.3235 - accuracy: 0.8501 - val_loss: 0.4015 - val_accuracy: 0.7667
+Epoch 18/35
+7/7 [==============================] - 4s 619ms/step - loss: 0.3115 - accuracy: 0.8913 - val_loss: 0.5566 - val_accuracy: 0.6833
+Epoch 19/35
+7/7 [==============================] - 4s 650ms/step - loss: 0.3257 - accuracy: 0.8512 - val_loss: 0.3918 - val_accuracy: 0.8167
+Epoch 20/35
+7/7 [==============================] - 4s 584ms/step - loss: 0.3460 - accuracy: 0.8119 - val_loss: 0.3435 - val_accuracy: 0.8667
+Epoch 21/35
+7/7 [==============================] - 4s 606ms/step - loss: 0.2737 - accuracy: 0.8790 - val_loss: 0.3651 - val_accuracy: 0.8333
+Epoch 22/35
+7/7 [==============================] - 4s 562ms/step - loss: 0.2587 - accuracy: 0.8741 - val_loss: 0.2720 - val_accuracy: 0.9000
+Epoch 23/35
+7/7 [==============================] - 4s 607ms/step - loss: 0.2355 - accuracy: 0.8798 - val_loss: 0.4026 - val_accuracy: 0.8333
+Epoch 24/35
+7/7 [==============================] - 4s 606ms/step - loss: 0.2178 - accuracy: 0.9103 - val_loss: 0.2065 - val_accuracy: 0.9333
+Epoch 25/35
+7/7 [==============================] - 4s 564ms/step - loss: 0.1550 - accuracy: 0.9356 - val_loss: 0.3326 - val_accuracy: 0.8333
+Epoch 26/35
+7/7 [==============================] - 4s 583ms/step - loss: 0.1722 - accuracy: 0.9416 - val_loss: 0.3908 - val_accuracy: 0.8167
+Epoch 27/35
+7/7 [==============================] - 4s 605ms/step - loss: 0.1935 - accuracy: 0.9252 - val_loss: 0.2397 - val_accuracy: 0.9167
+Epoch 28/35
+7/7 [==============================] - 4s 616ms/step - loss: 0.1489 - accuracy: 0.9692 - val_loss: 0.1458 - val_accuracy: 0.9500
+Epoch 29/35
+7/7 [==============================] - 4s 612ms/step - loss: 0.1395 - accuracy: 0.9405 - val_loss: 0.7241 - val_accuracy: 0.7000
+Epoch 30/35
+7/7 [==============================] - 4s 604ms/step - loss: 0.4520 - accuracy: 0.8178 - val_loss: 0.2306 - val_accuracy: 0.9167
+Epoch 31/35
+7/7 [==============================] - 4s 568ms/step - loss: 0.2291 - accuracy: 0.9099 - val_loss: 0.2700 - val_accuracy: 0.9000
+Epoch 32/35
+7/7 [==============================] - 4s 557ms/step - loss: 0.1771 - accuracy: 0.9559 - val_loss: 0.1595 - val_accuracy: 0.9667
+Epoch 33/35
+7/7 [==============================] - 4s 566ms/step - loss: 0.1002 - accuracy: 0.9788 - val_loss: 0.1153 - val_accuracy: 0.9500
+Epoch 34/35
+7/7 [==============================] - 4s 578ms/step - loss: 0.1221 - accuracy: 0.9451 - val_loss: 0.1058 - val_accuracy: 0.9667
+Epoch 35/35
+7/7 [==============================] - 4s 567ms/step - loss: 0.1011 - accuracy: 0.9804 - val_loss: 0.1458 - val_accuracy: 0.9500
+~~~
 
-<img src="./media/zones.png" />
-
->The red zone is ***near***, the yellow is ***medium***, the green is ***far*** and where there is no color it is considered ***super far***.
-
-During the development of the MVP and taking into account the areas of proximity given by the company, we obtained the following results
-
-<img src="./media/result.jpg" />
-<img src="./media/result2.jpg" />
-
-As you can see in these 2 images, the model is able to recognize if a person has their back to the robot and classifies it as super far, while if the person is facing it, it classifies it depending on the area, in this case it is in the middle area.
-
----
-
-## **Bugs**
-At this time the model has 89.87% of accurately predicting the image to evaluate, for this reason there may be an error of around 11% and we want to show some errors that we found during the development of the MVP
-
-<img src="./media/bug.jpg" />
-<img src="./media/bug1.jpg" />
-
-In the first photo, the image is in the far zone and the model classifies it as super far, the second photo is a photo that is clearly in the near zone, but the model classifies it in the super far zone. These errors would belong to that 11% probability of being wrong and would lead to readjusting the model.
+As we can see, we had a very good result, higher than the expected 85%.
 
 ---
 
 ## **Conclusions**
-1. The model dataset must be improved, in order to have a different type of information that feeds the model and leaves it better balanced, currently it has 3 people, 2 people and 1 people on a walking street.
-
-2. More time must be dedicated to enter to investigate the weights that the model currently has, in order to punish the error and that the model continues to learn and improve, since its accuracy is currently 89%.
-
-3. During the development of the MVP, it was possible to achieve a simulator using Unity, train a Machine Learning model and deploy using heroku, bootstrap and js.
-
-4. Although the Holberton foundations program did not include the technologies worked on, the Holberton program did teach us how to research and carry out a project from 0 with excellent results.
-
-5. We consider that 5 weeks is too little time to have a model very close to reality, since we worked with simulated images, to improve this it must be put into practice with real images and doing field tests, to improve the development of the model current.
-
-6. Teamwork is vital in this type of work, so knowing how to delegate and empower activities is important, thanks to this we were able to have an MVP according to the requirements of Holberton and Kiwi.
-
-7. Artificial intelligence is a very powerful tool, but you have to know how to use it, for this reason the data you have is very important, since with it you train and if the data is bad, you will have bad results, but if the data is good collected you can have amazing results.
+We can conclude that the current model has an accuracy of more than 90%, this means that the proposed model satisfactorily meets the general objective of the project, exceeding 90% accuracy in detecting COVID19 due to pneumonia, during each of the periods. , it was determined that to successfully conclude the project it must be carried out with the mainstreaming of the validation method, this is achieved by dividing the data into two parts: the training set and the validation set, the latter allowed us to validate the performance of the trainees model with training data. Finally, it is clarified that if there is a large difference between the precision by the training model and the validation of the precision, it is declared as an adjusted model, instead if the validation precision (val_acc) is equal to or a little less than precision training (acc) is declared as a good model.
 
 ---
 
